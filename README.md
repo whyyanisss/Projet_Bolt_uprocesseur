@@ -2,7 +2,7 @@
 Micro processeur 16 bit a accumulateur, architecture personnel
 Le projet BOLT-16 consiste en la conception intégrale, from scratch, d'une architecture de microprocesseur 16 bits en VHDL sur Vivado. 
 # Objectif 
-est de l'ensemble de a conception d'un système numérique, en développant non seulement le cœur de calcul
+Est de l'ensemble de a conception d'un système numérique, en développant non seulement le cœur de calcul
 (CPU), mais aussi des interfaces de communication et un simple compilateur.
 # Documents
 Ci-dessous la datasheet et le circuit RTL :
