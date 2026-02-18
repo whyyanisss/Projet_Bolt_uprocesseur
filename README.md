@@ -4,6 +4,7 @@ Le projet BOLT-16 consiste en la conception intégrale, from scratch, d'une arch
 # Objectif 
 Est de l'ensemble de a conception d'un système numérique, en développant non seulement le cœur de calcul
 (CPU), mais aussi des interfaces de communication et un simple compilateur.
+Pour plus de détails sur les tests et observer les chronogrammes, consultez le [README dédié aux simulations](Simulation/SIMU_README.md).
 # Documents
 Ci-dessous la datasheet et le circuit RTL :
 [Bolt16_Datasheet.pdf](https://github.com/user-attachments/files/25328188/Bolt16_Datasheet.pdf)
