@@ -48,15 +48,15 @@ Instruction <= MEM(conv_integer(Point));
 --7  SUB x01          101 00001     RESULTAT = 0      SUB = Res - Acc 
 -----------------------------
 
---MEM(0) <= "00000101";
---MEM(1) <= "01000000";
---MEM(2) <= "00000011";
---MEM(3) <= "01100110";
---MEM(4) <= "10000000";
---MEM(5) <= "01000001";
---MEM(6) <= "00000001";
---MEM(7) <= "10100001";
-
+MEM(1) <= x"0" & x"005";       --  INIT 5 
+MEM(2) <= x"2" & x"001";       --  STORE x001
+MEM(3) <= x"3" & x"007";       --  JUMP 7
+MEM(4) <= x"0" & x"001";       --  INIT 1
+MEM(5) <= x"0" & x"001";       --  INIT 1     
+MEM(6) <= x"0" & x"001";       --  INIT 1
+MEM(7) <= x"0" & x"001";       --  INIT 1
+MEM(8) <= x"8" & x"001";       --  SUB x001
+MEM(9) <= x"F" & x"000";       --  HALT
 
 -------------------------------------------------------------
 -- Multiplication + Shift + GPIO
@@ -75,14 +75,13 @@ Instruction <= MEM(conv_integer(Point));
 
 
 
+-------------------------------------------------------------
+-- TEST GPIO
+-------------------------------------------------------------
 
-
-MEM(0) <= x"0" & x"00A";        -- INIT  10
-MEM(1) <= x"2" & x"005";        -- STORE x005
-MEM(2) <= x"0" & x"003";        -- INIT  x003
-MEM(3) <= x"9" & x"005";        -- MULT  x005
-MEM(4) <= x"2" & x"FFE";        -- STORE xFFE
-MEM(5) <= x"1" & x"FFE";        -- LOAD  xFFE
-MEM(6) <= x"F" & x"000";        -- HALT
+--MEM(1) <= x"0" & x"00A";        -- INIT  10
+--MEM(2) <= x"2" & x"FFE";        -- STORE xFFE
+--MEM(3) <= x"1" & x"FFE";        -- LOAD  xFFE
+--MEM(4) <= x"F" & x"000";        -- HALT
 end Behavioral;
 
