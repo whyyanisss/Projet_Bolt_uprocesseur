@@ -9,7 +9,7 @@ Le projet **BOLT-16** consiste en la conception intégrale (*from scratch*) d'un
 L'objectif de ce projet est d'explorer et de maîtriser l'ensemble de la conception d'un système numérique. Cela inclut le développement :
 * Du cœur de calcul (CPU) et de son architecture interne.
 * Des interfaces de communication (comme le GPIO), et une interface de chargement (BootLoader).
-* D'un compilateur/assembleur simple adapté.
+* D'un compilateur/assembleur simple adapté au bootloader 👉 **[Voir le repository](https://github.com/whyyanisss/Compilateur-pseudo-asm.git)**.
 
 > 🔬 **Simulations et Tests :** > Des exemples de programmes de test (JUMP, GPIO) ainsi que des chronogrammes sont disponibles dans le dossier de simulation.
 > 👉 **[Voir la documentation des simulations](./Simulation/SIMU_README.md)**
